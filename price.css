@@ -136,33 +136,9 @@ i {
     margin-right: 10px;
 }
 
-
-.btn1 {
-    display: block;
-    background-color: black;
-    border: 1px solid #27264b;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    padding: 15px;
-    margin-top: 45px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 600;
-    cursor: pointer;
-}
-
-.btn2 {
-    display: block;
-    background-color: #fff;
-    border: 1px solid #27264b;
-    color: #27264b;
-    text-decoration: none;
-    border-radius: 5px;
-    padding: 15px;
-    margin-top: 45px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 600;
-    cursor: pointer;
+@media  (max-width:768px) {
+    .card {
+        flex-direction: column;
+        gap: 2rem;
+    }
 }

@@ -86,3 +86,28 @@ h4 {
     width: 900px;
     margin: auto;
 } */
+
+@media (max-width: 768px) {
+    /* .lorem {
+        padding: 20px;
+    } */
+
+    .lorem h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-list li {
+        border-bottom: 1px solid #CCC;
+    }
+
+    .main aside {
+        width: 100%;
+        text-align: center;
+    } 
+} 
